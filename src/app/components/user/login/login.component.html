@@ -1,0 +1,44 @@
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    Bootstrap
+  </a>
+</nav>
+<div class="login" >
+  <div class="container">
+
+    <div class="card card-container">
+      <div class="profile-img-card">
+        <div class="profile-img">
+          <img id="profile-img" src="../../../../assets/logo-white.png" />
+        </div>
+        
+      </div>
+
+      <p id="profile-name" class="profile-name-card">
+        Inicio de Session
+      </p>
+    
+      <br>
+      <form class="form-signin">
+        <span id="reauth-email" class="reauth-email"></span>
+       <!--  <input type="email" id="inputEmail" class="form-control" placeholder="Nombre" required autofocus> -->
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus> 
+        <input type="password" id="inputPassword" class="form-control popover-test" placeholder="Contraseña" required (click)="info()">
+          <div class="forgot-password">
+            Olvido su contraseña?
+          </div>
+        <br>
+        
+       <!--  <div id="remember" class="checkbox">
+          <label>
+              <input type="checkbox" value="remember-me">Aceptar <a href="">Terminos y condiciones</a> 
+          </label>
+      </div>
+      <br> -->
+        <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Iniciar Session</button>
+      </form>
+      
+    </div>
+  </div>
+</div>
